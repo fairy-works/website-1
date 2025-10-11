@@ -1,33 +1,33 @@
 {
     "logo": {
         "url": "/images/logo-white.svg",
-        "altText": "Logo light",
+        "altText": "Fairy Works - Expert Software Development",
         "type": "ImageBlock"
     },
-    "text": "A description of your brand",
+    "text": "Expert freelance software developer specializing in enterprise systems and startup solutions. Available for projects worldwide.",
     "primaryLinks": {
-        "title": "Product",
+        "title": "Services",
         "links": [
             {
-                "label": "Features",
-                "altText": "Features page",
-                "url": "/",
+                "label": "Enterprise Systems",
+                "altText": "Enterprise software development",
+                "url": "#expertise",
                 "icon": "arrowRight",
                 "iconPosition": "right",
                 "style": "secondary",
                 "type": "Link"
             },
             {
-                "label": "Pricing",
-                "url": "/pricing",
+                "label": "Startup MVPs",
+                "url": "#expertise",
                 "icon": "arrowRight",
                 "iconPosition": "right",
                 "style": "secondary",
                 "type": "Link"
             },
             {
-                "label": "Documentation",
-                "url": "/",
+                "label": "Full-Stack Development",
+                "url": "#services",
                 "icon": "arrowRight",
                 "iconPosition": "right",
                 "style": "secondary",
@@ -37,20 +37,20 @@
         "type": "FooterLinksGroup"
     },
     "secondaryLinks": {
-        "title": "Company",
+        "title": "Portfolio",
         "links": [
             {
-                "label": "Careers",
-                "altText": "careers page",
-                "url": "/careers",
+                "label": "Case Studies",
+                "altText": "Development case studies",
+                "url": "/blog",
                 "icon": "arrowRight",
                 "iconPosition": "right",
                 "style": "secondary",
                 "type": "Link"
             },
             {
-                "label": "Blog",
-                "url": "/blog",
+                "label": "Contact",
+                "url": "#contact-form",
                 "icon": "arrowRight",
                 "iconPosition": "right",
                 "style": "secondary",
@@ -61,26 +61,20 @@
     },
     "socialLinks": [
         {
-            "altText": "GitHub link",
-            "url": "https://github.com/netlify",
+            "altText": "GitHub profile",
+            "url": "https://github.com",
             "icon": "github",
             "type": "Social"
         },
         {
-            "altText": "Twitter link",
-            "url": "https://twitter.com/netlify",
-            "icon": "twitter",
-            "type": "Social"
-        },
-        {
-            "altText": "LinkedIn link",
-            "url": "https://www.linkedin.com/company/netlify",
+            "altText": "LinkedIn profile",
+            "url": "https://linkedin.com",
             "icon": "linkedin",
             "type": "Social"
         },
         {
-            "altText": "Email link",
-            "url": "/",
+            "altText": "Email contact",
+            "url": "mailto:hello@fairy.works",
             "icon": "mail",
             "type": "Social"
         }
@@ -103,7 +97,7 @@
             "type": "Link"
         }
     ],
-    "copyrightText": "Powered by [Netlify](https://www.netlify.com/)\n",
+    "copyrightText": "© 2025 Fairy Works. All rights reserved. Powered by [Netlify](https://www.netlify.com/)",
     "colors": "bg-dark-fg-light",
     "type": "Footer"
 }
