@@ -4,27 +4,27 @@ slug: /
 sections:
   - type: GenericSection
     title:
-      text: Unblock your team boost your time to production
+      text: Expert Software Development Services
       color: text-dark
       type: TitleBlock
-    subtitle: Subtitle goes here
+    subtitle: From Enterprise Systems to Startup MVPs
     text: >
-      A Netlify Create website is a git repo that you own. Every code commit is
-      instantly reflected in the visual editor and since every visual edit is a
-      git commit, git workflows and collaboration just work.
+      Experienced freelance software developer with expertise across the full spectrum of software development. 
+      From complex on-premise enterprise systems using proprietary tools to agile startup projects with 
+      evolving requirements. I deliver robust, scalable solutions tailored to your specific needs.
     actions:
-      - label: Get started
-        altText: ''
-        url: /
+      - label: View My Work
+        altText: 'View portfolio and case studies'
+        url: /blog
         showIcon: false
         icon: arrowRight
         iconPosition: right
         style: secondary
         elementId: ''
         type: Button
-      - label: See Tutorials
-        altText: ''
-        url: /
+      - label: Get In Touch
+        altText: 'Contact for project inquiries'
+        url: '#contact-form'
         showIcon: true
         icon: arrowRight
         iconPosition: right
@@ -33,11 +33,11 @@ sections:
         type: Link
     media:
       url: /images/main-hero.svg
-      altText: Unblock your team boost your time to production preview
+      altText: Software development expertise across all domains
       elementId: ''
       type: ImageBlock
     badge:
-      label: This is a badge
+      label: Available for Projects
       color: text-primary
       type: Badge
     elementId: ''
@@ -53,21 +53,21 @@ sections:
           - pr-16
   - type: FeaturedItemsSection
     title:
-      text: Key Benefits
+      text: Core Expertise
       color: text-dark
       styles:
         self:
           textAlign: center
       type: TitleBlock
-    subtitle: Subtitle goes here
+    subtitle: Full-Stack Development Across All Domains
     items:
       - type: FeaturedItem
-        title: 500k
-        subtitle: Numbers Done
+        title: Enterprise Systems
+        subtitle: On-Premise & Cloud Solutions
         text: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
+          Extensive experience with complex, highly interconnected enterprise systems.
+          Skilled in proprietary tools, legacy system integration, and modern microservices architectures.
+          Expert in scalability, security, and compliance requirements.
         actions: []
         elementId: null
         colors: bg-neutralAlt-fg-dark
@@ -84,21 +84,21 @@ sections:
             textAlign: left
         image:
           type: ImageBlock
-          altText: Lightning bolt symbol on red background
+          altText: Enterprise systems development icon
           elementId: ''
           url: /images/icon1.svg
           styles:
             self:
               borderRadius: x-large
-      - title: 20x
-        subtitle: The Job Stuff
+      - title: Startup Development
+        subtitle: Agile & Rapid Prototyping
         text: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
+          Specialized in startup environments with changing requirements.
+          Expert in MVP development, rapid prototyping, and agile methodologies.
+          Comfortable with daily requirement shifts and tight deadlines.
         image:
           url: /images/icon2.svg
-          altText: Featured icon two
+          altText: Startup development and agile methodologies icon
           elementId: ''
           type: ImageBlock
         actions: []
@@ -115,15 +115,15 @@ sections:
             textAlign: left
             justifyContent: center
         type: FeaturedItem
-      - title: 200%
-        subtitle: Faster
+      - title: Full-Stack Mastery
+        subtitle: Frontend to Database
         text: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
+          Proficient across the entire technology stack from responsive frontends
+          to scalable backends, databases, DevOps, and cloud infrastructure.
+          Experienced with modern frameworks and legacy systems alike.
         image:
           url: /images/icon3.svg
-          altText: Featured icon three
+          altText: Full-stack development capabilities icon
           elementId: ''
           type: ImageBlock
         actions: []
@@ -139,9 +139,9 @@ sections:
             flexDirection: row
         type: FeaturedItem
     actions:
-      - label: Get started
-        altText: ''
-        url: /
+      - label: Start Your Project
+        altText: 'Begin your software development project'
+        url: '#contact-form'
         showIcon: false
         icon: arrowRight
         iconPosition: right
@@ -149,7 +149,7 @@ sections:
         elementId: ''
         type: Button
     badge:
-      label: This is a badge
+      label: Proven Track Record
       color: text-primary
       styles:
         self:
@@ -168,28 +168,28 @@ sections:
         justifyContent: center
       subtitle:
         textAlign: center
-  - subtitle: Award winning enterprises trust us
+  - subtitle: Trusted Technologies & Platforms
     images:
       - url: /images/empathy-logo.svg
-        altText: Empathy logo
+        altText: Cloud platforms expertise
         type: ImageBlock
       - url: /images/wellster-logo.svg
-        altText: Wellster logo
+        altText: Modern frameworks
         type: ImageBlock
       - url: /images/vise-logo.svg
-        altText: Vise logo
+        altText: Enterprise solutions
         type: ImageBlock
       - url: /images/telus-logo.svg
-        altText: Telus logo
+        altText: DevOps and CI/CD
         type: ImageBlock
       - url: /images/contenful-logo.svg
-        altText: Contentful logo
+        altText: Database systems
         type: ImageBlock
       - url: /images/sanity-logo.svg
-        altText: Sanity logo
+        altText: API development
         type: ImageBlock
       - url: /images/rangle-logo.svg
-        altText: Rangle logo
+        altText: Security solutions
         type: ImageBlock
     motion: move-to-left
     colors: bg-light-fg-dark
@@ -201,11 +201,11 @@ sections:
     type: ImageGallerySection
   - posts:
       - content/pages/blog/case-study-1.md
-      - content/pages/blog/case-study-2.md
+      - content/pages/blog/case-study-2.md  
       - content/pages/blog/case-study-3.md
     showThumbnail: true
     showDate: true
-    showAuthor: true
+    showAuthor: false
     variant: three-col-grid
     colors: bg-light-fg-dark
     styles:
@@ -218,6 +218,14 @@ sections:
         justifyContent: center
     type: FeaturedPostsSection
     hoverEffect: move-up
+    title:
+      text: Recent Case Studies
+      color: text-dark
+      styles:
+        self:
+          textAlign: center
+      type: TitleBlock
+    subtitle: Real projects, real results
   - title: Divider
     colors: bg-light-fg-dark
     styles:
@@ -229,40 +237,25 @@ sections:
           - pr-7
     type: DividerSection
   - title:
-      text: Grow your business 10x faster
+      text: Comprehensive Development Services
       color: text-dark
       styles:
         self:
           textAlign: center
       type: TitleBlock
-    subtitle: This is a subtitle
+    subtitle: End-to-end software development
     text: |-
-      Aenean eros ipsum, interdum quis dignissim non, sollicitudin vitae nisl.
-      Aenean vel aliquet elit, at blandit ipsum. Sed eleifend felis sit amet
-      erat molestie, hendrerit malesuada justo ultrices. Nunc volutpat at erat
-      vitae interdum. Ut nec massa eget lorem blandit condimentum et at risus.
+      From initial concept and architecture design to deployment and maintenance,
+      I provide complete software development services. Whether you need a quick MVP
+      or a complex enterprise system, I adapt my approach to match your timeline,
+      budget, and technical requirements.
     media:
-      title: Title of the video
-      url: /images/placeholder-video.mp4
-      controls: false
-      aspectRatio: '16:9'
-      styles:
-        self:
-          padding:
-            - pt-2
-            - pb-2
-            - pl-2
-            - pr-2
-          borderColor: border-dark
-          borderStyle: solid
-          borderWidth: 1
-          borderRadius: large
-      type: VideoBlock
-      autoplay: true
-      loop: true
-      muted: true
+      url: /images/hero2.svg
+      altText: Comprehensive software development services
+      elementId: ''
+      type: ImageBlock
     badge:
-      label: Key Benefits
+      label: Full Service
       color: text-primary
       styles:
         self:
@@ -276,66 +269,24 @@ sections:
       subtitle:
         textAlign: center
     type: GenericSection
-  - type: GenericSection
-    title:
-      text: Generic section with a video
-      color: text-dark
-      styles:
-        self:
-          textAlign: left
-      type: TitleBlock
-    subtitle: Section with a video subtitle
-    text: |-
-      Aenean eros ipsum, interdum quis dignissim non, sollicitudin vitae nisl.
-      Aenean vel aliquet elit, at blandit ipsum. Sed eleifend felis sit amet
-      erat molestie, hendrerit malesuada justo ultrices. Nunc volutpat at erat
-      vitae interdum. Ut nec massa eget lorem blandit condimentum et at risus.
-    actions: []
-    media:
-      title: Title of the video
-      url: /images/placeholder-video.mp4
-      autoplay: true
-      loop: true
-      muted: true
-      controls: false
-      aspectRatio: '16:9'
-      styles:
-        self:
-          padding:
-            - pt-2
-            - pb-2
-            - pl-2
-            - pr-2
-          borderColor: border-dark
-          borderStyle: solid
-          borderWidth: 1
-          borderRadius: large
-      type: VideoBlock
-    elementId: null
-    colors: bg-light-fg-dark
-    styles:
-      self:
-        flexDirection: row
-        justifyContent: center
-      subtitle:
-        textAlign: left
   - title:
-      text: Social Media Management
+      text: Enterprise Solutions
       color: text-dark
       type: TitleBlock
-    subtitle: Increase your reach
+    subtitle: Scalable systems for growing businesses  
     text: >
-      A service that helps businesses to manage their social media accounts and
-      posts.
+      Specialized in building robust enterprise applications that handle complex business logic,
+      integrate with existing systems, and scale with your organization. Experience with 
+      microservices, API design, database optimization, and security compliance.
     actions:
-      - label: Get started
-        url: /
+      - label: Discuss Your Project
+        url: '#contact-form'
         icon: arrowRight
         iconPosition: right
         style: secondary
         type: Button
-      - label: See Tutorials
-        url: /
+      - label: View Case Studies
+        url: /blog
         showIcon: true
         icon: arrowRight
         iconPosition: right
@@ -343,10 +294,10 @@ sections:
         type: Link
     media:
       url: /images/hero2.svg
-      altText: Fun feature preview
+      altText: Enterprise software solutions
       type: ImageBlock
     badge:
-      label: This is a badge
+      label: Enterprise Ready
       color: text-primary
       type: Badge
     colors: bg-light-fg-dark
@@ -355,22 +306,23 @@ sections:
         alignItems: center
     type: GenericSection
   - title:
-      text: Business Consulting
+      text: Startup Development
       color: text-dark
       type: TitleBlock
-    subtitle: Be in good company
+    subtitle: Fast iteration, rapid deployment
     text: >
-      A service that provides advice and guidance to startups and small
-      businesses.
+      Expert in startup environments where requirements change daily. Specialized in MVP development,
+      rapid prototyping, and agile methodologies. I thrive in fast-paced environments and 
+      deliver working software quickly while maintaining code quality and scalability.
     actions:
-      - label: Get started
-        url: /
+      - label: Start Your MVP
+        url: '#contact-form'
         icon: arrowRight
         iconPosition: right
         style: secondary
         type: Button
-      - label: See Tutorials
-        url: /
+      - label: Learn My Process
+        url: /blog
         showIcon: true
         icon: arrowRight
         iconPosition: right
@@ -378,10 +330,10 @@ sections:
         type: Link
     media:
       url: /images/hero3.svg
-      altText: Dope design preview
+      altText: Startup development and MVP creation
       type: ImageBlock
     badge:
-      label: This is a badge
+      label: Startup Specialist
       color: text-primary
       type: Badge
     colors: bg-light-fg-dark
@@ -402,20 +354,18 @@ sections:
     type: DividerSection
   - type: CarouselSection
     title: null
-    subtitle: What our customers say about us
+    subtitle: What clients say about working with me
     items:
       - title: >-
-          “A designer knows he has achieved perfection not when there is nothing
-          left to add, but when there is nothing left to take away.”
-        tagline: Testimonial 1
-        subtitle: 'Maria Walters, Company'
+          "Exceptional technical expertise combined with clear communication. Delivered a complex enterprise system on time and under budget."
+        tagline: Client Testimonial
+        subtitle: 'CTO, Fortune 500 Company'
         text: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
+          Working on a legacy system integration project with tight deadlines. 
+          The solution exceeded expectations and seamlessly integrated with our existing infrastructure.
         image:
           url: /images/person-placeholder-light.png
-          altText: Maria Walters
+          altText: Enterprise client testimonial
           styles:
             self:
               borderRadius: full
@@ -435,16 +385,15 @@ sections:
             justifyContent: center
         type: FeaturedItem
       - title: >-
-          "Design is a plan for arranging elements in such a way as best to accomplish a particular purpose."
-        tagline: Testimonial 2
-        subtitle: 'John Doe, Company'
+          "Perfect for startup pace. Adapted quickly to changing requirements and delivered an MVP that helped us secure Series A funding."
+        tagline: Startup Success
+        subtitle: 'Founder & CEO, Tech Startup'
         text: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
+          Needed a developer who could handle uncertainty and rapid iteration. 
+          The MVP was delivered in record time with clean, scalable architecture.
         image:
           url: /images/person-placeholder-light.png
-          altText: John Doe
+          altText: Startup founder testimonial
           styles:
             self:
               borderRadius: full
@@ -464,110 +413,21 @@ sections:
             justifyContent: center
         type: FeaturedItem
       - title: >-
-          "Design is how it works, how it functions. Good design doesn't just make a product aesthetically pleasing, it makes it a pleasure to use."
-        tagline: Testimonial 3
-        subtitle: 'Maria Walters, Company'
+          "Outstanding full-stack capabilities. Built everything from responsive frontend to scalable backend infrastructure."
+        tagline: Technical Excellence
+        subtitle: 'Lead Developer, Software Agency'
         text: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
+          Collaborated on multiple projects requiring diverse technical skills.
+          Consistently delivered high-quality code and mentored junior developers.
         image:
           url: /images/person-placeholder-light.png
-          altText: Maria Walters
+          altText: Technical lead testimonial
           styles:
             self:
               borderRadius: full
           type: ImageBlock
         actions: []
         colors: bg-neutralAlt-fg-dark
-        styles:
-          self:
-            padding:
-              - pt-9
-              - pb-9
-              - pl-9
-              - pr-9
-            textAlign: left
-            borderRadius: large
-            flexDirection: row
-            justifyContent: center
-        type: FeaturedItem
-      - title: >-
-          “A designer knows he has achieved perfection not when there is nothing
-          left to add, but when there is nothing left to take away.”
-        tagline: Testimonial 4
-        subtitle: 'Maria Walters, Company'
-        text: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
-        image:
-          url: /images/person-placeholder-light.png
-          altText: Maria Walters
-          styles:
-            self:
-              borderRadius: full
-          type: ImageBlock
-        actions: []
-        colors: bg-neutralAlt-fg-dark
-        styles:
-          self:
-            padding:
-              - pt-9
-              - pb-9
-              - pl-9
-              - pr-9
-            textAlign: left
-            borderRadius: large
-            flexDirection: row
-            justifyContent: center
-        type: FeaturedItem
-      - title: >-
-          "Design can be art. Design can be aesthetics. Design is so simple, that's why it is so complicated."
-        tagline: Testimonial 5
-        subtitle: 'Jane Walters, Company'
-        text: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
-        image:
-          url: /images/person-placeholder-light.png
-          altText: Maria Walters
-          styles:
-            self:
-              borderRadius: full
-          type: ImageBlock
-        actions: []
-        colors: bg-neutralAlt-fg-dark
-        styles:
-          self:
-            padding:
-              - pt-9
-              - pb-9
-              - pl-9
-              - pr-9
-            textAlign: left
-            borderRadius: large
-            flexDirection: row
-            justifyContent: center
-        type: FeaturedItem
-      - title: >-
-          “Quote from some important person goes right here. I love using Netlify Create.”
-        tagline: Testimonial 6
-        subtitle: 'Jane Doe, Company'
-        text: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
-        image:
-          url: /images/img-placeholder-dark.png
-          altText: Jane Doe
-          styles:
-            self:
-              borderRadius: full
-          type: ImageBlock
-        actions: []
-        colors: bg-dark-fg-light
         styles:
           self:
             padding:
@@ -589,22 +449,23 @@ sections:
       subtitle:
         textAlign: center
   - title:
-      text: List of features here
+      text: Development Services
       color: text-primary
       styles:
         self:
           textAlign: center
       type: TitleBlock
-    subtitle: Featured items section subtitle
+    subtitle: Comprehensive software development offerings
     items:
-      - title: Feature Item One
-        tagline: This is the tagline
-        subtitle: This is the item subtitle
+      - title: Architecture & Design
+        tagline: System Planning
+        subtitle: Scalable system architecture
         text: |
-          Follow the tutorial to build your first Netlify Create site.
+          Design robust, scalable architectures for complex systems. 
+          Microservices, API design, database optimization, and cloud infrastructure planning.
         image:
           url: /images/abstract-feature1.svg
-          altText: Placeholder Image
+          altText: System architecture and design services
           styles:
             self:
               borderRadius: x-large
@@ -620,14 +481,15 @@ sections:
             borderRadius: x-large
             flexDirection: col
         type: FeaturedItem
-      - title: Feature Item Two
-        tagline: This is the tagline
-        subtitle: This is the item subtitle
+      - title: Full-Stack Development
+        tagline: Complete Solutions
+        subtitle: Frontend to backend expertise
         text: |
-          Follow the tutorial to build your first awesome Netlify Create site.
+          End-to-end development using modern frameworks and technologies. 
+          Responsive frontends, scalable APIs, database design, and cloud deployment.
         image:
           url: /images/abstract-feature2.svg
-          altText: Placeholder image
+          altText: Full-stack development services
           styles:
             self:
               borderRadius: x-large
@@ -643,14 +505,15 @@ sections:
             borderRadius: x-large
             flexDirection: col
         type: FeaturedItem
-      - title: Feature Item Three
-        tagline: This is the tagline
-        subtitle: This is the item subtitle
+      - title: Legacy System Integration
+        tagline: Modernization
+        subtitle: Bridging old and new systems
         text: |
-          Learn from the tutorial and build your first awesome Netlify Create site.
+          Seamlessly integrate modern solutions with existing legacy systems.
+          Data migration, API integration, and gradual system modernization strategies.
         image:
-          url: /images/abstract-feature1.svg
-          altText: Placeholder image
+          url: /images/abstract-feature3.svg
+          altText: Legacy system integration services
           styles:
             self:
               borderRadius: x-large
@@ -680,15 +543,14 @@ sections:
         textAlign: center
     type: FeaturedItemsSection
   - title:
-      text: Generic Section With A Form
+      text: Let's Build Something Great Together
       color: text-dark
       type: TitleBlock
-    subtitle: Section with a form subtitle
+    subtitle: Ready to start your project?
     text: |-
-      Aenean eros ipsum, interdum quis dignissim non, sollicitudin vitae nisl.
-      Aenean vel aliquet elit, at blandit ipsum. Sed eleifend felis sit amet
-      erat molestie, hendrerit malesuada justo ultrices. Nunc volutpat at erat
-      vitae interdum. Ut nec massa eget lorem blandit condimentum et at risus.
+      Whether you need a complex enterprise system or a rapid MVP prototype,
+      I'm here to help bring your vision to life. Get in touch to discuss your
+      project requirements, timeline, and how we can work together.
     media:
       fields:
         - name: name
@@ -705,10 +567,16 @@ sections:
           isRequired: true
           width: full
           type: EmailFormControl
+        - name: project
+          label: Project Type
+          hideLabel: true
+          placeholder: Enterprise System, Startup MVP, Integration, etc.
+          width: full
+          type: TextFormControl
         - name: message
           label: Message
           hideLabel: true
-          placeholder: Your message
+          placeholder: Tell me about your project requirements and timeline
           width: full
           type: TextareaFormControl
       elementId: contact-form
@@ -726,21 +594,21 @@ sections:
       type: FormBlock
       submitButton:
         type: SubmitButtonFormControl
-        label: Submit
+        label: Start the Conversation
         showIcon: false
         icon: arrowRight
         iconPosition: right
         style: primary
         elementId: null
     badge:
-      label: Contact Us
+      label: Get In Touch
       color: text-primary
       type: Badge
     colors: bg-light-fg-dark
     type: GenericSection
 seo:
-  metaTitle: Home - Demo site
-  metaDescription: This demo site is built with Netlify Create.
+  metaTitle: Expert Freelance Software Developer - Enterprise to Startup Solutions
+  metaDescription: Experienced freelance software developer specializing in enterprise systems, startup MVPs, and full-stack development. Available for complex on-premise systems and agile startup projects.
   socialImage: /images/main-hero.jpg
   type: Seo
 type: PageLayout
