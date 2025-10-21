@@ -11,8 +11,8 @@ sections:
       By using our services, you agree to the following terms and conditions:
 
 
-      1.  Fairy Works reserves the right to update these terms at any time.
-      Partners will be notified of significant changes.
+      1.  FairyWorks Digital Ltd. reserves the right to update these terms at
+      any time. Partners will be notified of significant changes.
 
 
       2.  Users must not use our services for any illegal activities.
