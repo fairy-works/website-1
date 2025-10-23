@@ -82,7 +82,7 @@
     "legalLinks": [
         {
             "label": "Terms",
-            "url": "/",
+            "url": "/terms-of-service",
             "icon": "arrowRight",
             "iconPosition": "right",
             "style": "secondary",
