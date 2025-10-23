@@ -11,11 +11,7 @@ sections:
         self:
           textAlign: left
     subtitle: ''
-    text: |-
-      Aenean eros ipsum, interdum quis dignissim non, sollicitudin vitae nisl.
-      Aenean vel aliquet elit, at blandit ipsum. Sed eleifend felis sit amet
-      erat molestie, hendrerit malesuada justo ultrices. Nunc volutpat at erat
-      vitae interdum. Ut nec massa eget lorem blandit condimentum et at risus.
+    text: "**FairyWorks Digital Kft.**\n\nAddress: 1077 Budapest, Rottenbiller utca 44. Fsz. Ü-8. ajtó\nContact: ThisAddressReceivesALotOfSpamPleaseUseContactFormInstead\\@fairy.works\nRegistration office: Fővárosi Törvényszék Cégbírósága\nRegistration number: 01-09-376520\nTax number:\_28843582-2-42\nEU tax number:\_HU28843582\nHosting provider: [Netlify](https://www.netlify.com/contact/)\n"
     actions: []
     colors: bg-light-fg-dark
     styles:
