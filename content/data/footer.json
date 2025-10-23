@@ -40,9 +40,9 @@
         "title": "Portfolio",
         "links": [
             {
-                "label": "Case Studies",
-                "altText": "Development case studies",
-                "url": "/blog",
+                "label": "Open Source Contribution",
+                "altText": "Open Source contributions",
+                "url": "https://szabope.works/",
                 "icon": "arrowRight",
                 "iconPosition": "right",
                 "style": "secondary",
@@ -62,7 +62,7 @@
     "socialLinks": [
         {
             "altText": "GitHub profile",
-            "url": "https://github.com",
+            "url": "https://github.com/szabope",
             "icon": "github",
             "type": "Social"
         },
@@ -74,7 +74,7 @@
         },
         {
             "altText": "Email contact",
-            "url": "mailto:hello@fairy.works",
+            "url": "mailto:ThisAddressReceivesALotOfSpamPleaseUseContactFormInstead@fairy.works",
             "icon": "mail",
             "type": "Social"
         }
