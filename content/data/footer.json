@@ -89,8 +89,16 @@
             "type": "Link"
         },
         {
+            "label": "Impressum",
+            "url": "/impressum",
+            "icon": "arrowRight",
+            "iconPosition": "right",
+            "style": "secondary",
+            "type": "Link"
+        },
+        {
             "label": "Privacy",
-            "url": "/",
+            "url": "/privacy-policy",
             "icon": "arrowRight",
             "iconPosition": "right",
             "style": "secondary",
