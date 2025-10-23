@@ -10,8 +10,8 @@ sections:
     subtitle: From Enterprise Systems to Startup MVPs
     text: >
       Experienced freelance software developer with expertise across the full spectrum of software development. 
-      From agile startup projects with 
-      evolving requirements to complex on-premise enterprise systems using proprietary tools. I deliver robust, scalable solutions tailored to your specific needs.
+      From complex on-premise enterprise systems using proprietary tools to agile startup projects with 
+      evolving requirements. I deliver robust, scalable solutions tailored to your specific needs.
     actions:
       - label: View My Work
         altText: 'View portfolio and case studies'
@@ -170,101 +170,26 @@ sections:
         textAlign: center
   - subtitle: Trusted Technologies & Platforms
     images:
-      - url: /images/images/padding.svg
-        type: ImageBlock
-      - url: /images/images/cloud.svg
+      - url: /images/empathy-logo.svg
         altText: Cloud platforms expertise
         type: ImageBlock
-      - url: /images/images/padding.svg
+      - url: /images/wellster-logo.svg
+        altText: Modern frameworks
         type: ImageBlock
-      - url: /images/images/Spring_Framework_Logo_2018.svg
-        altText: Spring Framework (TM)
+      - url: /images/vise-logo.svg
+        altText: Enterprise solutions
         type: ImageBlock
-      - url: /images/images/padding.svg
-        type: ImageBlock
-      - url: /images/images/Hashicorp-Terraform_onLight.svg
-        altText: Hashicorp Terraform
-        type: ImageBlock
-      - url: /images/images/padding.svg
-        type: ImageBlock
-      - url: /images/images/kubernetes.svg
+      - url: /images/telus-logo.svg
         altText: DevOps and CI/CD
         type: ImageBlock
-      - url: /images/images/padding.svg
-        type: ImageBlock
-      - url: /images/images/PostgreSQL_logo.3colors.svg
+      - url: /images/contenful-logo.svg
         altText: Database systems
         type: ImageBlock
-      - url: /images/images/padding.svg
+      - url: /images/sanity-logo.svg
+        altText: API development
         type: ImageBlock
-      - url: /images/images/Apache_Tomcat_logo.svg
-        altText: Apache Tomcat
-        type: ImageBlock
-      - url: /images/images/padding.svg
-        type: ImageBlock
-      - url: /images/images/Duke_(Java_mascot)_waving.svg
-        altText: Java
-        type: ImageBlock
-      - url: /images/images/padding.svg
-        type: ImageBlock
-      - url: /images/images/Nginx_logo.svg
-        altText: Nginx
-        styles:
-          self:
-            padding:
-              top: 10
-        type: ImageBlock
-      - url: /images/images/padding.svg
-        type: ImageBlock
-      - url: /images/images/Kotlin Full Color Logo on White RGB.svg
-        altText: Kotlin
-        styles:
-          self:
-            padding:
-              top: 10
-        type: ImageBlock
-      - url: /images/images/padding.svg
-        type: ImageBlock
-      - url: /images/images/ts-lettermark-blue.svg
-        altText: Typescript
-        styles:
-          self:
-            padding:
-              top: 10
-        type: ImageBlock
-      - url: /images/images/padding.svg
-        type: ImageBlock
-      - url: /images/images/lockup_angular.svg
-        altText: Angular
-        styles:
-          self:
-            padding:
-              top: 10
-        type: ImageBlock
-      - url: /images/images/padding.svg
-        type: ImageBlock
-      - url: /images/images/react-logo.svg
-        altText: React
-        type: ImageBlock
-      - url: /images/images/padding.svg
-        type: ImageBlock
-      - url: /images/images/Rust_programming_language_black_logo.svg
-        altText: Rust
-        type: ImageBlock
-      - url: /images/images/padding.svg
-        type: ImageBlock
-      - url: /images/images/python-logo-generic.svg
-        altText: Python
-        type: ImageBlock
-      - url: /images/images/padding.svg
-        type: ImageBlock
-      - url: /images/images/jetbrains.svg
-        altText: IntelliJ
-        type: ImageBlock
-      - url: /images/images/padding.svg
-        type: ImageBlock
-      - url: /images/images/debian.svg
-        altText: Debian
+      - url: /images/rangle-logo.svg
+        altText: Security solutions
         type: ImageBlock
     motion: move-to-left
     colors: bg-light-fg-dark
@@ -277,6 +202,33 @@ sections:
       subtitle:
         textAlign: center
     type: ImageGallerySection
+  - posts:
+      - content/pages/blog/case-study-1.md
+      - content/pages/blog/case-study-2.md  
+      - content/pages/blog/case-study-3.md
+    showThumbnail: true
+    showDate: true
+    showAuthor: false
+    variant: three-col-grid
+    colors: bg-light-fg-dark
+    styles:
+      self:
+        padding:
+          - pt-16
+          - pl-16
+          - pb-16
+          - pr-16
+        justifyContent: center
+    type: FeaturedPostsSection
+    hoverEffect: move-up
+    title:
+      text: Recent Case Studies
+      color: text-dark
+      styles:
+        self:
+          textAlign: center
+      type: TitleBlock
+    subtitle: Real projects, real results
   - title: Divider
     colors: bg-light-fg-dark
     styles:
@@ -393,6 +345,112 @@ sections:
         alignItems: center
         flexDirection: row-reverse
     type: GenericSection
+  - title: Divider
+    colors: bg-light-fg-dark
+    styles:
+      self:
+        padding:
+          - pt-7
+          - pl-7
+          - pb-7
+          - pr-7
+    type: DividerSection
+  - type: CarouselSection
+    title: null
+    subtitle: What clients say about working with me
+    items:
+      - title: >-
+          "Exceptional technical expertise combined with clear communication. Delivered a complex enterprise system on time and under budget."
+        tagline: Client Testimonial
+        subtitle: 'CTO, Fortune 500 Company'
+        text: >-
+          Working on a legacy system integration project with tight deadlines. 
+          The solution exceeded expectations and seamlessly integrated with our existing infrastructure.
+        image:
+          url: /images/person-placeholder-light.png
+          altText: Enterprise client testimonial
+          styles:
+            self:
+              borderRadius: full
+          type: ImageBlock
+        actions: []
+        colors: bg-neutralAlt-fg-dark
+        styles:
+          self:
+            padding:
+              - pt-9
+              - pb-9
+              - pl-9
+              - pr-9
+            textAlign: left
+            borderRadius: large
+            flexDirection: row
+            justifyContent: center
+        type: FeaturedItem
+      - title: >-
+          "Perfect for startup pace. Adapted quickly to changing requirements and delivered an MVP that helped us secure Series A funding."
+        tagline: Startup Success
+        subtitle: 'Founder & CEO, Tech Startup'
+        text: >-
+          Needed a developer who could handle uncertainty and rapid iteration. 
+          The MVP was delivered in record time with clean, scalable architecture.
+        image:
+          url: /images/person-placeholder-light.png
+          altText: Startup founder testimonial
+          styles:
+            self:
+              borderRadius: full
+          type: ImageBlock
+        actions: []
+        colors: bg-neutralAlt-fg-dark
+        styles:
+          self:
+            padding:
+              - pt-9
+              - pb-9
+              - pl-9
+              - pr-9
+            textAlign: left
+            borderRadius: large
+            flexDirection: row
+            justifyContent: center
+        type: FeaturedItem
+      - title: >-
+          "Outstanding full-stack capabilities. Built everything from responsive frontend to scalable backend infrastructure."
+        tagline: Technical Excellence
+        subtitle: 'Lead Developer, Software Agency'
+        text: >-
+          Collaborated on multiple projects requiring diverse technical skills.
+          Consistently delivered high-quality code and mentored junior developers.
+        image:
+          url: /images/person-placeholder-light.png
+          altText: Technical lead testimonial
+          styles:
+            self:
+              borderRadius: full
+          type: ImageBlock
+        actions: []
+        colors: bg-neutralAlt-fg-dark
+        styles:
+          self:
+            padding:
+              - pt-9
+              - pb-9
+              - pl-9
+              - pr-9
+            textAlign: left
+            borderRadius: large
+            flexDirection: row
+            justifyContent: center
+        type: FeaturedItem
+    elementId: null
+    variant: next-prev-nav
+    colors: bg-light-fg-dark
+    styles:
+      self:
+        justifyContent: center
+      subtitle:
+        textAlign: center
   - title:
       text: Development Services
       color: text-primary
