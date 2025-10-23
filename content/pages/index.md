@@ -321,6 +321,7 @@ sections:
         textAlign: center
     type: GenericSection
   - title:
+      id: enterprise
       text: Enterprise Solutions
       color: text-dark
       type: TitleBlock
@@ -355,6 +356,7 @@ sections:
     styles:
       self:
         alignItems: center
+    elementId: enterprise
     type: GenericSection
   - title:
       text: Startup Development
@@ -392,6 +394,7 @@ sections:
       self:
         alignItems: center
         flexDirection: row-reverse
+    elementId: startup
     type: GenericSection
   - title:
       text: Development Services
@@ -486,6 +489,7 @@ sections:
         justifyContent: center
       subtitle:
         textAlign: center
+    elementId: services
     type: FeaturedItemsSection
   - title:
       text: Let's Build Something Great Together

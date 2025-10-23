@@ -11,7 +11,7 @@
             {
                 "label": "Enterprise Systems",
                 "altText": "Enterprise software development",
-                "url": "#expertise",
+                "url": "/#enterprise",
                 "icon": "arrowRight",
                 "iconPosition": "right",
                 "style": "secondary",
@@ -19,7 +19,7 @@
             },
             {
                 "label": "Startup MVPs",
-                "url": "#expertise",
+                "url": "/#startup",
                 "icon": "arrowRight",
                 "iconPosition": "right",
                 "style": "secondary",
@@ -27,7 +27,7 @@
             },
             {
                 "label": "Full-Stack Development",
-                "url": "#services",
+                "url": "/#services",
                 "icon": "arrowRight",
                 "iconPosition": "right",
                 "style": "secondary",
