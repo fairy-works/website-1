@@ -170,100 +170,100 @@ sections:
         textAlign: center
   - subtitle: Trusted Technologies & Platforms
     images:
-      - url: /images/images/padding.svg
+      - url: /images/trusted-technologies/padding.svg
         type: ImageBlock
-      - url: /images/images/cloud.svg
+      - url: /images/trusted-technologies/cloud.svg
         altText: Cloud platforms expertise
         type: ImageBlock
-      - url: /images/images/padding.svg
+      - url: /images/trusted-technologies/padding.svg
         type: ImageBlock
-      - url: /images/images/Spring_Framework_Logo_2018.svg
+      - url: /images/trusted-technologies/Spring_Framework_Logo_2018.svg
         altText: Spring Framework (TM)
         type: ImageBlock
-      - url: /images/images/padding.svg
+      - url: /images/trusted-technologies/padding.svg
         type: ImageBlock
-      - url: /images/images/Hashicorp-Terraform_onLight.svg
+      - url: /images/trusted-technologies/Hashicorp-Terraform_onLight.svg
         altText: Hashicorp Terraform
         type: ImageBlock
-      - url: /images/images/padding.svg
+      - url: /images/trusted-technologies/padding.svg
         type: ImageBlock
-      - url: /images/images/kubernetes.svg
+      - url: /images/trusted-technologies/kubernetes.svg
         altText: DevOps and CI/CD
         type: ImageBlock
-      - url: /images/images/padding.svg
+      - url: /images/trusted-technologies/padding.svg
         type: ImageBlock
-      - url: /images/images/PostgreSQL_logo.3colors.svg
+      - url: /images/trusted-technologies/PostgreSQL_logo.3colors.svg
         altText: Database systems
         type: ImageBlock
-      - url: /images/images/padding.svg
+      - url: /images/trusted-technologies/padding.svg
         type: ImageBlock
-      - url: /images/images/Apache_Tomcat_logo.svg
+      - url: /images/trusted-technologies/Apache_Tomcat_logo.svg
         altText: Apache Tomcat
         type: ImageBlock
-      - url: /images/images/padding.svg
+      - url: /images/trusted-technologies/padding.svg
         type: ImageBlock
-      - url: /images/images/Duke_(Java_mascot)_waving.svg
+      - url: /images/trusted-technologies/Duke_(Java_mascot)_waving.svg
         altText: Java
         type: ImageBlock
-      - url: /images/images/padding.svg
+      - url: /images/trusted-technologies/padding.svg
         type: ImageBlock
-      - url: /images/images/Nginx_logo.svg
+      - url: /images/trusted-technologies/Nginx_logo.svg
         altText: Nginx
         styles:
           self:
             padding:
               top: 10
         type: ImageBlock
-      - url: /images/images/padding.svg
+      - url: /images/trusted-technologies/padding.svg
         type: ImageBlock
-      - url: /images/images/Kotlin Full Color Logo on White RGB.svg
+      - url: /images/trusted-technologies/Kotlin Full Color Logo on White RGB.svg
         altText: Kotlin
         styles:
           self:
             padding:
               top: 10
         type: ImageBlock
-      - url: /images/images/padding.svg
+      - url: /images/trusted-technologies/padding.svg
         type: ImageBlock
-      - url: /images/images/ts-lettermark-blue.svg
+      - url: /images/trusted-technologies/ts-lettermark-blue.svg
         altText: Typescript
         styles:
           self:
             padding:
               top: 10
         type: ImageBlock
-      - url: /images/images/padding.svg
+      - url: /images/trusted-technologies/padding.svg
         type: ImageBlock
-      - url: /images/images/lockup_angular.svg
+      - url: /images/trusted-technologies/lockup_angular.svg
         altText: Angular
         styles:
           self:
             padding:
               top: 10
         type: ImageBlock
-      - url: /images/images/padding.svg
+      - url: /images/trusted-technologies/padding.svg
         type: ImageBlock
-      - url: /images/images/react-logo.svg
+      - url: /images/trusted-technologies/react-logo.svg
         altText: React
         type: ImageBlock
-      - url: /images/images/padding.svg
+      - url: /images/trusted-technologies/padding.svg
         type: ImageBlock
-      - url: /images/images/Rust_programming_language_black_logo.svg
+      - url: /images/trusted-technologies/Rust_programming_language_black_logo.svg
         altText: Rust
         type: ImageBlock
-      - url: /images/images/padding.svg
+      - url: /images/trusted-technologies/padding.svg
         type: ImageBlock
-      - url: /images/images/python-logo-generic.svg
+      - url: /images/trusted-technologies/python-logo-generic.svg
         altText: Python
         type: ImageBlock
-      - url: /images/images/padding.svg
+      - url: /images/trusted-technologies/padding.svg
         type: ImageBlock
-      - url: /images/images/jetbrains.svg
+      - url: /images/trusted-technologies/jetbrains.svg
         altText: IntelliJ
         type: ImageBlock
-      - url: /images/images/padding.svg
+      - url: /images/trusted-technologies/padding.svg
         type: ImageBlock
-      - url: /images/images/debian.svg
+      - url: /images/trusted-technologies/debian.svg
         altText: Debian
         type: ImageBlock
     motion: move-to-left
