@@ -1,0 +1,5 @@
+/* disabled links are disabled */
+a[disabled], a[disabled]:hover {
+    pointer-events: none;
+    color: #e1e1e1;
+}

@@ -67,10 +67,12 @@
             "type": "Social"
         },
         {
-            "altText": "LinkedIn profile",
-            "url": "https://linkedin.com",
+            "altText": "Zero Social Media Presence",
+            "url": "#",
             "icon": "linkedin",
-            "type": "Social"
+            "type": "Social",
+            "disabled": true,
+            "elementId": "linkedinButton"
         },
         {
             "altText": "Email contact",
