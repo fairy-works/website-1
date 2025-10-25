@@ -37,12 +37,21 @@
         "type": "FooterLinksGroup"
     },
     "secondaryLinks": {
-        "title": "Portfolio",
+        "title": "Profession",
         "links": [
             {
-                "label": "Open Source Contribution",
+                "label": "Open Source",
                 "altText": "Open Source contributions",
                 "url": "https://szabope.works/",
+                "icon": "arrowRight",
+                "iconPosition": "right",
+                "style": "secondary",
+                "type": "Link"
+            },
+            {
+                "label": "Experience",
+                "altText": "Experience summary",
+                "url": "/experience-summary",
                 "icon": "arrowRight",
                 "iconPosition": "right",
                 "style": "secondary",
@@ -107,7 +116,7 @@
             "type": "Link"
         }
     ],
-    "copyrightText": "© 2025 Fairy Works. All rights reserved. Powered by [Netlify](https://www.netlify.com/)",
+    "copyrightText": "© 2025 FairyWorks Digital Kft. All rights reserved. Powered by [Netlify](https://www.netlify.com/)",
     "colors": "bg-dark-fg-light",
     "type": "Footer"
 }

@@ -13,9 +13,9 @@ sections:
       From agile startup projects with 
       evolving requirements to complex on-premise enterprise systems using proprietary tools. I deliver robust, scalable solutions tailored to your specific needs.
     actions:
-      - label: View My Work
+      - label: View My Experience
         altText: 'View portfolio and case studies'
-        url: /blog
+        url: /experience-summary
         showIcon: false
         icon: arrowRight
         iconPosition: right
