@@ -500,6 +500,7 @@ sections:
       Whether you need a complex enterprise system or a rapid MVP prototype,
       I'm here to help bring your vision to life. Get in touch to discuss your
       project requirements, timeline, and how we can work together.
+    elementId: contact-form
     media:
       fields:
         - name: name
@@ -528,7 +529,6 @@ sections:
           placeholder: Tell me about your project requirements and timeline
           width: full
           type: TextareaFormControl
-      elementId: contact-form
       styles:
         self:
           padding:
