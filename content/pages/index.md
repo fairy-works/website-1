@@ -337,13 +337,13 @@ sections:
         iconPosition: right
         style: secondary
         type: Button
-      - label: View Case Studies
-        url: /blog
-        showIcon: true
-        icon: arrowRight
-        iconPosition: right
-        style: primary
-        type: Link
+#      - label: View Case Studies
+#        url: /blog
+#        showIcon: true
+#        icon: arrowRight
+#        iconPosition: right
+#        style: primary
+#        type: Link
     media:
       url: /images/hero2.svg
       altText: Enterprise software solutions
@@ -375,7 +375,7 @@ sections:
         style: secondary
         type: Button
       - label: Learn My Process
-        url: /blog
+        url: /startup-process
         showIcon: true
         icon: arrowRight
         iconPosition: right
