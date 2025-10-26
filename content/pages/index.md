@@ -14,7 +14,7 @@ sections:
       evolving requirements to complex on-premise enterprise systems using proprietary tools. I deliver robust, scalable solutions tailored to your specific needs.
     actions:
       - label: View My Experience
-        altText: 'View portfolio and case studies'
+        altText: 'View professional experience summary'
         url: /experience-summary
         showIcon: false
         icon: arrowRight
