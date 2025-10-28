@@ -32,9 +32,14 @@ sections:
         elementId: ''
         type: Link
     media:
-      url: /images/main-hero.svg
+      url: /images/project-management.jpg
       altText: Software development expertise across all domains
       elementId: ''
+      styles:
+        self:
+          borderColor: "border-neutral"
+          borderStyle: "solid"
+          borderWidth: 1
       type: ImageBlock
     badge:
       label: Available for Projects
@@ -86,7 +91,7 @@ sections:
           type: ImageBlock
           altText: Enterprise systems development icon
           elementId: ''
-          url: /images/icon1.svg
+          url: /images/enterprise_logo.png
           styles:
             self:
               borderRadius: x-large
@@ -301,7 +306,7 @@ sections:
       or a complex enterprise system, I adapt my approach to match your timeline,
       budget, and technical requirements.
     media:
-      url: /images/hero2.svg
+      url: /images/hero2.svg # software design to deployment roadmap
       altText: Comprehensive software development services
       elementId: ''
       type: ImageBlock
@@ -541,6 +546,7 @@ sections:
           borderWidth: 1
           borderRadius: large
       type: FormBlock
+      elementId: contact
       submitButton:
         type: SubmitButtonFormControl
         label: Start the Conversation
